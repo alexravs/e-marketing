@@ -1,3 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Just+Me+Again+Down+Here);
+
+
 $body-bg: #16a085;
+$font-family-sans-serif: 'Just Me Again Down Here', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 60px;
 $navbar-default-bg: #ecf0f1;
+$navbar-default-brand-color: #d35400;
+
 @import 'bootstrap';
+
+.navbar  {
+	border-bottom:solid 5px #bdc3c7;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: Just Me Again Down Here;
+	font-size: 45px;
+}
+
+.navbar-right {
+	font-weight: bold;
+	font-family: Just Me Again Down Here;
+	font-size: 20px;
+}
+
+html,body
+{
+height:100%;
+}
+
+#wrap
+{
+min-height: 100%;
+}
+
+#main
+{
+overflow:auto;
+padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer  {
+border-top:solid 5px #34495e;
+position: relative;
+height: 185px;
+clear:both;
+margin-top: -150px; /* negative value of footer height */
+padding-top:20px;
+bottom: 0;
+color:#fff;
+}
+
+.contactinfo  {
+	font-size: 18px;
+	position: absolute;
+	left : 850px;
+	right: 100px
+
+	
+}
+
+.helmo {
+	max-width: 60%;
+	height: auto;
+}
+
+.facebook {
+	max-width: 10%;
+	height: auto;
+}
+
+.twitter {
+	max-width: 10%;
+	height: auto;
+}
+
+.youtube {
+	max-width: 10%;
+	height: auto;
+}
+
+.school {
+	font-size: 18px;
+	position: absolute;
+	left : 480px;
+	right: 520px
+
+}
+
+.emailinfo {
+	font-size: 18px;
+	position: absolute;
+	left : 100px;
+	right: 900px
+
+}
+
+
+
+
